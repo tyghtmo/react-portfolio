@@ -1,5 +1,26 @@
+body {
+  background-color: #131313 !important;
+}
+
 .App {
   text-align: center;
+  padding-top: 30vh;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #e6e6e6;
+}
+
+.icon {
+  color: #e0e0e0;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.medium {
+  font-weight: 300;
 }
 
 .mainTitle {
@@ -7,4 +28,8 @@
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.filler {
+  height:1000px;
 }

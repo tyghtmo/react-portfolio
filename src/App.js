@@ -27,6 +27,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header data={this.state.portfolioData.main} />
+        <div className="filler"></div>
       </div>
     );
   }

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import { Navbar, Nav, Container, Row } from "react-bootstrap";
+import { Navbar, Nav, Container, Row, Col } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 class Header extends Component {
   render() {
@@ -7,16 +9,21 @@ class Header extends Component {
       var name = this.props.data.name;
       var occupation = this.props.data.occupation;
       var description = this.props.data.description;
-      var city = this.props.data.address.city;
     }
 
     return (
       <header id="main">
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-          <Navbar.Brand href="#main">{name}</Navbar.Brand>
+        <Navbar
+          collapseOnSelect
+          expand="lg"
+          bg="transparent"
+          variant="dark"
+          fixed="top"
+        >
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
+              <Nav.Link href="#main">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#education">Education</Nav.Link>
               <Nav.Link href="#work">Work</Nav.Link>
@@ -28,18 +35,35 @@ class Header extends Component {
 
         <Container>
           <Row className="justify-content-center">
-            <h1 className="mainTitle">I'm {name}.</h1>
-            <h3>
-              I'm a {city} based <span>{occupation}</span>. {description}.
-            </h3>
+            <Col>
+              <h1 className="mainTitle thin">{name}</h1>
+            </Col>
+          </Row>
+          <Row className="justify-content-center" xs={1}>
+            <Col className="pb-2">
+              <h3 className="thin">{occupation}.</h3>
+            </Col>
+            <Col className="pb-5">
+              <h4 className="medium">{description}.</h4>
+            </Col>
+          </Row>
+          <Row className="w-25 m-auto">
+            <Col>
+              <a target="_blank" rel="noreferrer" href="https://github.com/tyghtmo">
+                <FontAwesomeIcon icon={faGithub} size="4x" className="icon" />
+              </a>
+            </Col>
+            <Col>
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/tysonwright259/">
+                <FontAwesomeIcon
+                  icon={faLinkedinIn}
+                  size="4x"
+                  className="icon"
+                />
+              </a>
+            </Col>
           </Row>
         </Container>
-
-        <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
-            <i className="icon-down-circle"></i>
-          </a>
-        </p>
       </header>
     );
   }
