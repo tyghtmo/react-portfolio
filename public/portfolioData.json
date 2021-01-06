@@ -1,0 +1,14 @@
+{
+    "main": {
+      "name": "Tyson Wright",
+      "occupation": "Data Analytics and Information Technology Graduate",
+      "subheading": "Data | Web | Software",
+      "description": "Searching for a role in Data Analytics, Web Development and Software Engineering",
+      "address": {
+        "city": "Waurn Ponds",
+        "state": "Victoria",
+        "country": "Australia",
+        "postcode": "3216"
+      }
+    }
+  }
