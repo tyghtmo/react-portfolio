@@ -18,14 +18,16 @@ class About extends Component {
           <Row>
             <Col lg={4}>
               <img
-                className="profileImg"
+                className="profileImg pb-5"
                 src="images/headshot.png"
                 alt="Tyson Wright"
               />
             </Col>
             <Col lg={8}>
               <Row className="mb-4">
-                <h5 className="medium">{about}</h5>
+                <Col>
+                  <h5 className="medium">{about}</h5>
+                </Col>
               </Row>
               <Row>
                 <Col>
@@ -40,7 +42,12 @@ class About extends Component {
                   </ul>
                 </Col>
                 <Col className="d-flex">
-                  <Button variant="outline-light" size="lg" className="m-auto" id="resume-btn">
+                  <Button
+                    variant="outline-light"
+                    size="lg"
+                    className="m-auto"
+                    id="resume-btn"
+                  >
                     Download Resume
                   </Button>
                 </Col>

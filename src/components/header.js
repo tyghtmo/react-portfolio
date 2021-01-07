@@ -32,12 +32,12 @@ class Header extends Component {
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
             <Nav>
-              <Button variant="outline-light" className="btn-toggle" id="themeSwitch">Change</Button>
+              <Button variant="outline-light" size="sm" className="btn-toggle" id="themeSwitch">Change Theme</Button>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
 
-        <Container className="sectionPadding">
+        <Container className="headerPadding">
           <Row className="headerPad"></Row>
           <Row className="justify-content-center">
             <Col>
@@ -52,7 +52,7 @@ class Header extends Component {
               <h4 className="medium">{description}.</h4>
             </Col>
           </Row>
-          <Row className="w-25 m-auto">
+          <Row className="w-50 m-auto" xs={2}>
             <Col>
               <a
                 target="_blank"
