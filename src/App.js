@@ -3,6 +3,7 @@ import "./App.css";
 
 import Header from "./components/header";
 import About from "./components/about"
+import Resume from "./components/resume"
 
 class App extends Component {
   constructor(props) {
@@ -30,6 +31,7 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.portfolioData.main} />
         <About data={this.state.portfolioData.about} />
+        <Resume data={this.state.portfolioData.resume} />
         <div className="filler"></div>
       </div>
     );

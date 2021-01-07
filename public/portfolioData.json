@@ -1,19 +1,77 @@
 {
-    "main": {
-      "name": "Tyson Wright",
-      "occupation": "Data Analytics and Information Technology Graduate",
-      "subheading": "Data | Web | Software",
-      "description": "Searching for a role in Data Analytics, Web Development and Software Engineering"
-    },
-    "about": {
-        "aboutLine": "My name is Tyson Wright, I enjoy using data and programming skills to discover new insights and solve interesting problems.",
-        "contact": {
-            "city": "Geelong",
-            "state": "Victoria",
-            "country": "Australia",
-            "postcode": "3216",
-            "phone": "0437199244",
-            "email": "tyson.w259@gmail.com"
-        }
+  "main": {
+    "name": "Tyson Wright",
+    "occupation": "Data Analytics and Information Technology Graduate",
+    "subheading": "Data | Web | Software",
+    "description": "Searching for a role in Data Analytics, Web Development and Software Engineering"
+  },
+  "about": {
+    "aboutLine": "My name is Tyson Wright, I enjoy using data and programming skills to discover new insights and solve interesting problems.",
+    "contact": {
+      "city": "Geelong",
+      "state": "Victoria",
+      "country": "Australia",
+      "postcode": "3216",
+      "phone": "0437199244",
+      "email": "tyson.w259@gmail.com"
     }
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "Deakin University",
+        "degree": "Graduate Certificate in Data Analytics",
+        "dates": "June 2020 - October 2020",
+        "description": ""
+      },
+      {
+        "school": "Deakin University",
+        "degree": "Bachelor of Information Technology",
+        "dates": "2017 - 2020",
+        "description": "Major in Programming."
+      }
+    ],
+    "work": [
+      {
+        "company": "Bunning's Warehouse",
+        "title": "Team Member",
+        "years": "2015 - Current",
+        "description": [
+          "Torquay Warehouse Team Member of the Year 2019.",
+          "Provided excellent customer service promptly and courteously and used creative problem solving to ensure customers got the information they needed."
+        ]
+      },
+      {
+        "company": "FPT Software, Hanoi",
+        "title": "Front-end Web Developer Intern",
+        "years": "November - December 2019",
+        "description": [
+          "Responsible for making the codelearn.io site responsive for mobile and tablet devices.",
+          "Technologies used: C#, .NET, JavaScript, Git, Bootstrap, Chart.js, CSS & HTML."
+        ]
+      },
+      {
+        "company": "Jan Juc Cricket Club",
+        "title": "Website Development & Maintenance",
+        "years": "September 2019 - Current",
+        "description": [
+          "Implemented the Jan Juc Cricket Club website and online store.",
+          "Responsible for maintaining the website, hosting, PayPal and e-commerce.",
+          "Technologies used: WordPress, WooCommerce, PayPal API"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "AWS Cloud Services",
+        "description": "As part of one of my assignments I was tasked with creating a program that would read a configuration file and then send data to WCF services hosted on AWS EC2 instances that would then perform some calculation and return the results to a windows form application to display to the user. The cloud solution I created involved 3 different algorithms running on 3 seperate VM's each for a total of 9 VM's. These were created using AMI's and snapshots. I then created a load balancer that routed the requests to 1 VM from each algorithm. The resulting data was then sent back to the user in order to undergo further calculation and display the final result to the user.",
+        "image": "images/aws.png"
+      },
+      {
+        "title": "CAP",
+        "description": "For my capstone project I was the Back-End leader for the Capstone Application Portal project. We were asked by the client to make a number of visual and functional changes to a pre-existing website that did not meet the business requirements. Changes were made to the website using PHP, smarty (templating framework) and SQL to display the data dynamically.",
+        "image": "images/cap.png"
+      }
+    ]
   }
+}

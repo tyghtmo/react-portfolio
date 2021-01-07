@@ -18,6 +18,10 @@ body {
   background-color: #131313;
 }
 
+.horizontalRule {
+  border-color: #e6e6e6;
+}
+
 /* Light Mode */
 body.light-mode {
   background-color: #ececec !important;
@@ -34,6 +38,10 @@ body.light-mode {
 
 .light-mode .collapse.show, .light-mode .collapsing{
   background-color: #ececec;
+}
+
+.light-mode .horizontalRule {
+  border-color: #191919;
 }
 
 /* Layout */
@@ -63,6 +71,10 @@ body.light-mode {
 
 .profileImg {
   border-radius: 50%;
+}
+
+.projectImg {
+  width: 95%;
 }
 
 .thin {
