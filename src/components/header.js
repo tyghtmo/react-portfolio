@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Navbar, Nav, Container, Row, Col } from "react-bootstrap";
+import { Navbar, Nav, Container, Row, Col, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
@@ -19,6 +19,7 @@ class Header extends Component {
           bg="transparent"
           variant="dark"
           fixed="top"
+          id="nav"
         >
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -30,10 +31,13 @@ class Header extends Component {
               <Nav.Link href="#projects">Projects</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
+            <Nav>
+              <Button variant="outline-light" className="btn-toggle" id="themeSwitch">Change</Button>
+            </Nav>
           </Navbar.Collapse>
         </Navbar>
 
-        <Container>
+        <Container className="sectionPadding">
           <Row className="headerPad"></Row>
           <Row className="justify-content-center">
             <Col>

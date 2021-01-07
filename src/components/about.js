@@ -29,7 +29,7 @@ class About extends Component {
               </Row>
               <Row>
                 <Col>
-                  <h3>Contact Details</h3>
+                  <h3 className="medium">Contact Details</h3>
                   <ul className="lists">
                     <li>
                       {city}, {state}
@@ -40,11 +40,7 @@ class About extends Component {
                   </ul>
                 </Col>
                 <Col className="d-flex">
-                  <Button
-                    variant="outline-light"
-                    size="lg"
-                    className="m-auto"
-                  >
+                  <Button variant="outline-light" size="lg" className="m-auto" id="resume-btn">
                     Download Resume
                   </Button>
                 </Col>

@@ -1,21 +1,46 @@
+/* Colours */
+
+/* Dark Mode */
 body {
   background-color: #131313 !important;
+  color: #e6e6e6!important;
 }
+
+.icon {
+  color: #e0e0e0;
+}
+
+#about {
+  background-color: rgb(56, 56, 56);
+}
+
+/* Light Mode */
+body.light-mode {
+  background-color: #ececec !important;
+  color: #191919!important;
+}
+
+.light-mode .icon {
+  color: #1f1f1f;
+}
+
+.light-mode #about{
+  background-color: rgb(199, 199, 199);
+}
+
+/* Layout */
 
 .App {
   text-align: center;
 }
 
 .sectionPadding {
-  padding-top: 25vh;
+  padding-top: 20vh;
+  padding-bottom: 25vh;
 }
 
-.headerPad{
-  height: 30vh;
-}
-
-h1, h2, h3, h4, h5, h6, p, li {
-  color: #e6e6e6;
+.headerPad {
+  height: 10vh;
 }
 
 .lists {
@@ -25,10 +50,6 @@ h1, h2, h3, h4, h5, h6, p, li {
 
 .profileImg {
   border-radius: 50%;
-}
-
-.icon {
-  color: #e0e0e0;
 }
 
 .thin {
@@ -47,5 +68,5 @@ h1, h2, h3, h4, h5, h6, p, li {
 }
 
 .filler {
-  height:1000px;
+  height: 1000px;
 }
