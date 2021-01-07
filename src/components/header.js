@@ -34,6 +34,7 @@ class Header extends Component {
         </Navbar>
 
         <Container>
+          <Row className="headerPad"></Row>
           <Row className="justify-content-center">
             <Col>
               <h1 className="mainTitle thin">{name}</h1>
@@ -49,12 +50,20 @@ class Header extends Component {
           </Row>
           <Row className="w-25 m-auto">
             <Col>
-              <a target="_blank" rel="noreferrer" href="https://github.com/tyghtmo">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/tyghtmo"
+              >
                 <FontAwesomeIcon icon={faGithub} size="4x" className="icon" />
               </a>
             </Col>
             <Col>
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/tysonwright259/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/tysonwright259/"
+              >
                 <FontAwesomeIcon
                   icon={faLinkedinIn}
                   size="4x"
