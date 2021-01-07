@@ -32,7 +32,7 @@ class Header extends Component {
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
             <Nav>
-              <Button variant="outline-light" size="sm" className="btn-toggle" id="themeSwitch">Change Theme</Button>
+              <Button variant="light" size="sm" className="btn-toggle" id="themeSwitch">Light Mode</Button>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
