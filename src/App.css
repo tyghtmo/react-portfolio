@@ -6,12 +6,25 @@ body {
   text-align: center;
 }
 
+.sectionPadding {
+  padding-top: 25vh;
+}
+
 .headerPad{
   height: 30vh;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, li {
   color: #e6e6e6;
+}
+
+.lists {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.profileImg {
+  border-radius: 50%;
 }
 
 .icon {

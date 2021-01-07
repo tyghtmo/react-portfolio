@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
+
 import Header from "./components/header";
+import About from "./components/about"
 
 class App extends Component {
   constructor(props) {
@@ -27,6 +29,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header data={this.state.portfolioData.main} />
+        <About data={this.state.portfolioData.about} />
         <div className="filler"></div>
       </div>
     );

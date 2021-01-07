@@ -3,12 +3,17 @@
       "name": "Tyson Wright",
       "occupation": "Data Analytics and Information Technology Graduate",
       "subheading": "Data | Web | Software",
-      "description": "Searching for a role in Data Analytics, Web Development and Software Engineering",
-      "address": {
-        "city": "Geelong",
-        "state": "Victoria",
-        "country": "Australia",
-        "postcode": "3216"
-      }
+      "description": "Searching for a role in Data Analytics, Web Development and Software Engineering"
+    },
+    "about": {
+        "aboutLine": "My name is Tyson Wright, I enjoy using data and programming skills to discover new insights and solve interesting problems.",
+        "contact": {
+            "city": "Geelong",
+            "state": "Victoria",
+            "country": "Australia",
+            "postcode": "3216",
+            "phone": "0437199244",
+            "email": "tyson.w259@gmail.com"
+        }
     }
   }
