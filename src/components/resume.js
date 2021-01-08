@@ -66,7 +66,7 @@ class Resume extends Component {
               </Col>
             </Row>
             <Row>
-              <Col xs={7}>
+              <Col md={7}>
                 <img className="projectImg" src={project.image} alt={project.title} />
               </Col>
               <Col>
@@ -85,7 +85,7 @@ class Resume extends Component {
             <Col className="text-right">
               <h2 className="thin">Education</h2>
             </Col>
-            <Col xs={9} className="m-auto">
+            <Col md={9} className="m-auto">
               {education}
             </Col>
           </Row>
@@ -94,7 +94,7 @@ class Resume extends Component {
             <Col className="text-right">
               <h2 className="thin">Work</h2>
             </Col>
-            <Col xs={9} className="m-auto">
+            <Col md={9} className="m-auto">
               {work}
             </Col>
           </Row>
@@ -103,7 +103,7 @@ class Resume extends Component {
             <Col className="text-right">
               <h2 className="thin">Projects</h2>
             </Col>
-            <Col xs={9} className="m-auto">
+            <Col md={9} className="m-auto">
               {projects}
             </Col>
           </Row>

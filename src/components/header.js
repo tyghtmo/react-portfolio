@@ -12,7 +12,7 @@ class Header extends Component {
     }
 
     return (
-      <header id="main">
+      <header id="main" className="fullHeight">
         <Navbar
           collapseOnSelect
           expand="lg"
@@ -37,8 +37,7 @@ class Header extends Component {
           </Navbar.Collapse>
         </Navbar>
 
-        <Container className="headerPadding">
-          <Row className="headerPad"></Row>
+        <Container>
           <Row className="justify-content-center">
             <Col>
               <h1 className="mainTitle thin">{name}</h1>

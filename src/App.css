@@ -3,7 +3,7 @@
 /* Dark Mode */
 body {
   background-color: #131313 !important;
-  color: #e6e6e6!important;
+  color: #e6e6e6 !important;
 }
 
 .icon {
@@ -14,7 +14,8 @@ body {
   background-color: rgb(56, 56, 56);
 }
 
-.collapse.show, .collapsing{
+.collapse.show,
+.collapsing {
   background-color: #131313;
 }
 
@@ -25,18 +26,19 @@ body {
 /* Light Mode */
 body.light-mode {
   background-color: #ececec !important;
-  color: #191919!important;
+  color: #191919 !important;
 }
 
 .light-mode .icon {
   color: #1f1f1f;
 }
 
-.light-mode #about{
+.light-mode #about {
   background-color: rgb(199, 199, 199);
 }
 
-.light-mode .collapse.show, .light-mode .collapsing{
+.light-mode .collapse.show,
+.light-mode .collapsing {
   background-color: #ececec;
 }
 
@@ -55,13 +57,9 @@ body.light-mode {
   padding-bottom: 15vh;
 }
 
-.headerPadding {
-  padding-top: 12vh;
-  padding-bottom: 32vh;
-}
-
-.headerPad {
-  height: 10vh;
+#main {
+  display: flex;
+  align-items: center;
 }
 
 .lists {
@@ -74,7 +72,11 @@ body.light-mode {
 }
 
 .projectImg {
-  width: 95%;
+  width: 100%;
+}
+
+.fullHeight {
+  height: 100vh;
 }
 
 .thin {
@@ -105,4 +107,11 @@ body.light-mode {
 
 html {
   scroll-padding-top: 70px; /* height of sticky header */
+  scroll-behavior: smooth; /* smooth scroll for page links */
+}
+
+@media (max-width: 767px) {
+  #resume .text-right {
+    text-align: left!important;
+  }
 }
