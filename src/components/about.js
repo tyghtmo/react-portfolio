@@ -29,7 +29,7 @@ class About extends Component {
                   <h5 className="medium">{about}</h5>
                 </Col>
               </Row>
-              <Row>
+              <Row xs={1} md={2}>
                 <Col>
                   <h3 className="medium">Contact Details</h3>
                   <ul className="lists">

@@ -59,14 +59,14 @@ class Resume extends Component {
 
       var projects = this.props.data.projects.map(function (project) {
         return (
-          <Container key={project.title}>
-            <Row>
+          <Container key={project.title} className="mb-5">
+            <Row className="mb-3">
               <Col>
                 <h3 className="thin">{project.title}</h3>
               </Col>
             </Row>
-            <Row>
-              <Col md={7}>
+            <Row xs={1}>
+              <Col>
                 <img className="projectImg" src={project.image} alt={project.title} />
               </Col>
               <Col>
@@ -85,7 +85,7 @@ class Resume extends Component {
             <Col className="text-right">
               <h2 className="thin">Education</h2>
             </Col>
-            <Col md={9} className="m-auto">
+            <Col md={9} className="ml-auto mr-auto mt-5">
               {education}
             </Col>
           </Row>
@@ -94,7 +94,7 @@ class Resume extends Component {
             <Col className="text-right">
               <h2 className="thin">Work</h2>
             </Col>
-            <Col md={9} className="m-auto">
+            <Col md={9} className="ml-auto mr-auto mt-5">
               {work}
             </Col>
           </Row>
@@ -103,7 +103,7 @@ class Resume extends Component {
             <Col className="text-right">
               <h2 className="thin">Projects</h2>
             </Col>
-            <Col md={9} className="m-auto">
+            <Col md={9} className="ml-auto mr-auto mt-5">
               {projects}
             </Col>
           </Row>
