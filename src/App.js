@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import "./App.css";
 
 import Header from "./components/header";
-import About from "./components/about"
-import Resume from "./components/resume"
+import About from "./components/about";
+import Resume from "./components/resume";
+import Contact from "./components/contact";
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      foo: "bar",
       portfolioData: {},
     };
   }
@@ -32,6 +32,7 @@ class App extends Component {
         <Header data={this.state.portfolioData.main} />
         <About data={this.state.portfolioData.about} />
         <Resume data={this.state.portfolioData.resume} />
+        <Contact />
         <div className="filler"></div>
       </div>
     );

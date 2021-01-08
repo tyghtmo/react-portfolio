@@ -5,6 +5,7 @@ class About extends Component {
   render() {
     if (this.props.data) {
       var about = this.props.data.aboutLine;
+      var resumeLink = this.props.data.resumeLink;
       var city = this.props.data.contact.city;
       var state = this.props.data.contact.state;
       var country = this.props.data.contact.country;
@@ -47,6 +48,9 @@ class About extends Component {
                     size="lg"
                     className="m-auto"
                     id="resume-btn"
+                    target="_blank"
+                    rel="noreferrer"
+                    href={resumeLink}
                   >
                     Download Resume
                   </Button>
