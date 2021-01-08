@@ -85,7 +85,7 @@ class Resume extends Component {
             <Col className="text-right">
               <h2 className="thin">Education</h2>
             </Col>
-            <Col md={9} className="ml-auto mr-auto mt-5">
+            <Col md={9} className="ml-auto mr-auto">
               {education}
             </Col>
           </Row>
@@ -94,7 +94,7 @@ class Resume extends Component {
             <Col className="text-right">
               <h2 className="thin">Work</h2>
             </Col>
-            <Col md={9} className="ml-auto mr-auto mt-5">
+            <Col md={9} className="ml-auto mr-auto">
               {work}
             </Col>
           </Row>
@@ -103,7 +103,7 @@ class Resume extends Component {
             <Col className="text-right">
               <h2 className="thin">Projects</h2>
             </Col>
-            <Col md={9} className="ml-auto mr-auto mt-5">
+            <Col md={9} className="ml-auto mr-auto">
               {projects}
             </Col>
           </Row>

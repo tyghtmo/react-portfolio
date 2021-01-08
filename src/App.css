@@ -110,7 +110,7 @@ body.light-mode {
 }
 
 .filler {
-  height: 1000px;
+  height: 100px;
 }
 
 html {
@@ -119,7 +119,7 @@ html {
 }
 
 @media (max-width: 767px) {
-  #resume .text-right {
-    text-align: left!important;
+  body .text-right{
+    text-align: center!important;
   }
 }
