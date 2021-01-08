@@ -81,7 +81,7 @@ class Resume extends Component {
     return (
       <section id="resume">
         <Container className="sectionPadding">
-          <Row>
+          <Row id="education">
             <Col className="text-right">
               <h2 className="thin">Education</h2>
             </Col>
@@ -90,7 +90,7 @@ class Resume extends Component {
             </Col>
           </Row>
           <hr className="horizontalRule" />
-          <Row className="mt-4">
+          <Row className="mt-4" id="work">
             <Col className="text-right">
               <h2 className="thin">Work</h2>
             </Col>
@@ -99,7 +99,7 @@ class Resume extends Component {
             </Col>
           </Row>
           <hr className="horizontalRule" />
-          <Row className="mt-4">
+          <Row className="mt-4" id="projects">
             <Col className="text-right">
               <h2 className="thin">Projects</h2>
             </Col>

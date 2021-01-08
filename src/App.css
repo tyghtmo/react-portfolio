@@ -102,3 +102,7 @@ body.light-mode {
 .filler {
   height: 1000px;
 }
+
+html {
+  scroll-padding-top: 70px; /* height of sticky header */
+}
