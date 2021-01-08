@@ -18,7 +18,7 @@ class About extends Component {
           <Row>
             <Col lg={4}>
               <img
-                className="profileImg pb-5"
+                className="profileImg mb-5"
                 src="images/headshot.png"
                 alt="Tyson Wright"
               />
