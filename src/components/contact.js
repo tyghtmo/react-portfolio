@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 class Contact extends Component {
   render() {
@@ -11,6 +13,14 @@ class Contact extends Component {
       //   Add HTML here
       <section id="contact">
         <Container>
+          <Row>
+            <Col sm={3} className="text-right mb-4">
+              <FontAwesomeIcon icon={faEnvelope} size="4x" className="icon" />
+            </Col>
+            <Col>
+              <h1 className="thin">Contact</h1>
+            </Col>
+          </Row>
           <Form>
             <Form.Group as={Row} controlId="contactFormName">
               <Form.Label column="true" sm={3} className="text-right">
