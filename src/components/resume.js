@@ -47,7 +47,7 @@ class Resume extends Component {
               <Col>
                 <ul className="lists text-left">
                   {work.description.map((description) => {
-                    return <li key={description}>{description}</li>;
+                    return <li key={description}>-&emsp;{description}</li>;
                   })}
                 </ul>
                 {/* <p className="medium">{work.description}</p> */}
@@ -74,7 +74,7 @@ class Resume extends Component {
                 />
               </Col>
               <Col>
-                <p className="medium">{project.description}</p>
+                <p className="medium text-left">{project.description}</p>
               </Col>
               <Col>
                 <p className="medium">Technologies used: {project.technology}</p>

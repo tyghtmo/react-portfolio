@@ -32,7 +32,7 @@ class App extends Component {
         <Header data={this.state.portfolioData.main} />
         <About data={this.state.portfolioData.about} />
         <Resume data={this.state.portfolioData.resume} />
-        <Contact />
+        <Contact data={this.state.portfolioData.about}/>
         <div className="filler"></div>
       </div>
     );

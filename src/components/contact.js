@@ -4,10 +4,35 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 class Contact extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "",
+      subject: "",
+      message: "",
+    };
+  }
+
   render() {
     if (this.props.data) {
-      //   Set props here
+      var email = this.props.data.contact.email;
     }
+
+    const handleClick = (e) => {
+      this.setState(
+        {
+          name: document.getElementById("contactFormName").value,
+          subject: document.getElementById("contactFormSubject").value,
+          message: document.getElementById("contactFormMessage").value,
+        },
+        function () {
+          e.preventDefault();
+          window.open(
+            `mailto:${email}?subject=${this.state.name}: ${this.state.subject}&body=${this.state.message}`
+          );
+        }
+      );
+    };
 
     return (
       //   Add HTML here
@@ -50,6 +75,7 @@ class Contact extends Component {
                   type="submit"
                   className="w-100 mt-3"
                   id="contactSubmit"
+                  onClick={handleClick}
                 >
                   Send
                 </Button>
