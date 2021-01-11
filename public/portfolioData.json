@@ -66,12 +66,14 @@
       {
         "title": "AWS Cloud Services",
         "description": "As part of one of my assignments I was tasked with creating a program that would read a configuration file and then send data to WCF services hosted on AWS EC2 instances that would then perform some calculation and return the results to a windows form application to display to the user. The cloud solution I created involved 3 different algorithms running on 3 seperate VM's each for a total of 9 VM's. These were created using AMI's and snapshots. I then created a load balancer that routed the requests to 1 VM from each algorithm. The resulting data was then sent back to the user in order to undergo further calculation and display the final result to the user.",
-        "image": "images/aws.png"
+        "image": "images/aws.png",
+        "technology": "C#, WCF & AWS EC2"
       },
       {
-        "title": "CAP",
+        "title": "Capstone Application Portal",
         "description": "For my capstone project I was the Back-End leader for the Capstone Application Portal project. We were asked by the client to make a number of visual and functional changes to a pre-existing website that did not meet the business requirements. Changes were made to the website using PHP, smarty (templating framework) and SQL to display the data dynamically.",
-        "image": "images/cap.png"
+        "image": "images/cap.png",
+        "technology": "PHP, JavaScript, SQL, CSS & HTML"
       }
     ]
   }

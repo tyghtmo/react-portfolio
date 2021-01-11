@@ -13,8 +13,8 @@ class Contact extends Component {
       //   Add HTML here
       <section id="contact">
         <Container>
-          <Row>
-            <Col sm={3} className="text-right mb-4">
+          <Row className="mb-4">
+            <Col sm={3} className="text-right">
               <FontAwesomeIcon icon={faEnvelope} size="4x" className="icon" />
             </Col>
             <Col>

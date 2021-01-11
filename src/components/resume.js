@@ -67,10 +67,17 @@ class Resume extends Component {
             </Row>
             <Row xs={1}>
               <Col>
-                <img className="projectImg" src={project.image} alt={project.title} />
+                <img
+                  className="projectImg"
+                  src={project.image}
+                  alt={project.title}
+                />
               </Col>
               <Col>
                 <p className="medium">{project.description}</p>
+              </Col>
+              <Col>
+                <p className="medium">Technologies used: {project.technology}</p>
               </Col>
             </Row>
           </Container>
@@ -83,7 +90,7 @@ class Resume extends Component {
         <Container className="sectionPadding">
           <Row id="education">
             <Col className="text-right">
-              <h2 className="thin">Education</h2>
+              <h1 className="thin">Education</h1>
             </Col>
             <Col md={9} className="ml-auto mr-auto">
               {education}
@@ -92,7 +99,7 @@ class Resume extends Component {
           <hr className="horizontalRule" />
           <Row className="mt-4" id="work">
             <Col className="text-right">
-              <h2 className="thin">Work</h2>
+              <h1 className="thin">Work</h1>
             </Col>
             <Col md={9} className="ml-auto mr-auto">
               {work}
@@ -101,7 +108,7 @@ class Resume extends Component {
           <hr className="horizontalRule" />
           <Row className="mt-4" id="projects">
             <Col className="text-right">
-              <h2 className="thin">Projects</h2>
+              <h1 className="thin">Projects</h1>
             </Col>
             <Col md={9} className="ml-auto mr-auto">
               {projects}
