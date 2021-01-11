@@ -35,7 +35,6 @@ class Contact extends Component {
     };
 
     return (
-      //   Add HTML here
       <section id="contact">
         <Container>
           <Row className="mb-4">

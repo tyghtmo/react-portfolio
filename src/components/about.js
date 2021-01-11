@@ -20,7 +20,7 @@ class About extends Component {
             <Col lg={4}>
               <img
                 className="profileImg mb-5"
-                src="images/headshot.png"
+                src="images/headshot.webp"
                 alt="Tyson Wright"
               />
             </Col>
