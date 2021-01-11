@@ -82,6 +82,7 @@ body.light-mode {
 
 .projectImg {
   width: 100%;
+  border-radius: 5px;
 }
 
 .fullHeight {
