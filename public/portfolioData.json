@@ -65,10 +65,10 @@
     "projects": [
       {
         "title": "Plant Catalogue",
-        "description": "Uses the public trefle.io API to display and search through plants by common name, scientific name, genus and family. Shows helpful information about varying growing conditions for each plant. PWA optimized with efficient caching policy and installable from the browser.",
+        "description": "Uses the trefle.io API to display and search through plants by common name, scientific name, genus and family. Shows helpful information about varying growing conditions for each plant. PWA optimized with efficient caching policy and installable from the browser.",
         "image": "images/plants.webp",
         "technology": "Python3, Django, JavaScript, SCSS & HTML5",
-        "link": "https://google.com"
+        "link": ""
       },
       {
         "title": "AWS Cloud Services",
