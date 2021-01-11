@@ -77,7 +77,9 @@ class Resume extends Component {
                 <p className="medium text-left">{project.description}</p>
               </Col>
               <Col>
-                <p className="medium">Technologies used: {project.technology}</p>
+                <p className="medium">
+                  Technologies used: {project.technology}
+                </p>
               </Col>
             </Row>
           </Container>

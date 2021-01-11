@@ -64,16 +64,25 @@
     ],
     "projects": [
       {
+        "title": "Plant Catalogue",
+        "description": "Uses the public trefle.io API to display and search through plants by common name, scientific name, genus and family. Shows helpful information about varying growing conditions for each plant. PWA optimized with efficient caching policy and installable from the browser.",
+        "image": "images/plants.webp",
+        "technology": "Python3, Django, JavaScript, SCSS & HTML5",
+        "link": "https://google.com"
+      },
+      {
         "title": "AWS Cloud Services",
-        "description": "As part of one of my assignments I was tasked with creating a program that would read a configuration file and then send data to WCF services hosted on AWS EC2 instances that would then perform some calculation and return the results to a windows form application to display to the user. The cloud solution I created involved 3 different algorithms running on 3 seperate VM's each for a total of 9 VM's. These were created using AMI's and snapshots. I then created a load balancer that routed the requests to 1 VM from each algorithm. The resulting data was then sent back to the user in order to undergo further calculation and display the final result to the user.",
+        "description": "As part of my Cloud Systems class, I was tasked with creating a C# application that would communicate with multiple WCF services hosted on AWS. The cloud solution I created consisted of 3 algorithms each running on 3 different EC2 instances. I then created a load balancer so that each time the project was initiated, the calculations ran on 1 VM for each algorithm.",
         "image": "images/aws.webp",
-        "technology": "C#, WCF & AWS EC2"
+        "technology": "C#, WCF & AWS EC2",
+        "link": ""
       },
       {
         "title": "Capstone Application Portal",
-        "description": "For my capstone project I was the Back-End leader for the Capstone Application Portal project. We were asked by the client to make a number of visual and functional changes to a pre-existing website that did not meet the business requirements. Changes were made to the website using PHP, smarty (templating framework) and SQL to display the data dynamically.",
+        "description": "For my capstone project I was the Back-End leader for the Capstone Application Portal project. We were asked by the client to make a number of visual and functional changes to an existing job-board website that did not meet the business requirements.",
         "image": "images/cap.webp",
-        "technology": "PHP, JavaScript, SQL, CSS & HTML"
+        "technology": "PHP, JavaScript, SQL, CSS3 & HTML5",
+        "link": ""
       }
     ]
   }
