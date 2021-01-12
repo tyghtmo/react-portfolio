@@ -11,9 +11,9 @@ btn.addEventListener("click", function () {
   themeBtn.classList.toggle("btn-dark");
   themeBtn.classList.toggle("btn-light");
   if(themeBtn.innerHTML === "Light Mode") {
-    themeBtn.innerHTML = "Dark Mode"
+    themeBtn.innerHTML = "Dark Mode";
   } else {
-      themeBtn.innerHTML = "Light Mode"
+      themeBtn.innerHTML = "Light Mode";
   }
 
   var resumeBtn = document.getElementById("resume-btn");
@@ -22,5 +22,5 @@ btn.addEventListener("click", function () {
 
   var contactBtn = document.getElementById("contactSubmit");
   contactBtn.classList.toggle("btn-outline-dark");
-  contactBtn.classList.toggle("btn-outline-light")
+  contactBtn.classList.toggle("btn-outline-light");
 });
