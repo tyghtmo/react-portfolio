@@ -48,9 +48,8 @@ class About extends Component {
                     size="lg"
                     className="m-auto"
                     id="resume-btn"
-                    target="_blank"
-                    rel="noreferrer"
                     href={resumeLink}
+                    download="Tyson_Wright_Resume"
                   >
                     Download Resume
                   </Button>
