@@ -6,10 +6,10 @@ class Resume extends Component {
     if (this.props.data) {
       var education = this.props.data.education.map(function (education) {
         return (
-          <Container key={education.degree} className="mb-4">
+          <Container key={education.degree} className="mb-5">
             <Row>
               <Col>
-                <h3 className="thin">{education.degree}</h3>
+                <h2 className="thin">{education.degree}</h2>
               </Col>
             </Row>
             <Row>
@@ -33,7 +33,7 @@ class Resume extends Component {
           <Container key={work.company} className="mb-5">
             <Row>
               <Col>
-                <h3 className="thin">{work.title}</h3>
+                <h2 className="thin">{work.title}</h2>
               </Col>
             </Row>
             <Row>
@@ -62,7 +62,7 @@ class Resume extends Component {
           <Container key={project.title} className="mb-5">
             <Row className="mb-3">
               <Col>
-                <h3 className="thin">{project.title}</h3>
+                <h2 className="thin">{project.title}</h2>
               </Col>
             </Row>
             <Row xs={1}>
@@ -91,7 +91,7 @@ class Resume extends Component {
       <section id="resume">
         <Container className="sectionPadding">
           <Row id="education">
-            <Col className="text-right">
+            <Col md={3} className="text-right">
               <h1 className="thin">Education</h1>
             </Col>
             <Col md={9} className="ml-auto mr-auto">
@@ -100,7 +100,7 @@ class Resume extends Component {
           </Row>
           <hr className="horizontalRule" />
           <Row className="mt-4" id="work">
-            <Col className="text-right">
+            <Col md={3} className="text-right">
               <h1 className="thin">Work</h1>
             </Col>
             <Col md={9} className="ml-auto mr-auto">
@@ -109,7 +109,7 @@ class Resume extends Component {
           </Row>
           <hr className="horizontalRule" />
           <Row className="mt-4" id="projects">
-            <Col className="text-right">
+            <Col md={3} className="text-right">
               <h1 className="thin">Projects</h1>
             </Col>
             <Col md={9} className="ml-auto mr-auto">

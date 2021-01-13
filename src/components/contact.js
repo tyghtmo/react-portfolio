@@ -42,13 +42,13 @@ class Contact extends Component {
               <FontAwesomeIcon icon={faEnvelope} size="4x" className="icon" />
             </Col>
             <Col>
-              <h1 className="thin">Contact</h1>
+              <h2 className="thin">Contact</h2>
             </Col>
           </Row>
           <Form>
             <Form.Group as={Row} controlId="contactFormName">
               <Form.Label column="true" sm={3} className="text-right">
-                <h4 className="thin">Name</h4>
+                <h3 className="thin">Name</h3>
               </Form.Label>
               <Col sm={9}>
                 <Form.Control type="text" className="h-100" />
@@ -57,7 +57,7 @@ class Contact extends Component {
 
             <Form.Group as={Row} controlId="contactFormSubject">
               <Form.Label column="true" sm={3} className="text-right">
-                <h4 className="thin">Subject</h4>
+                <h3 className="thin">Subject</h3>
               </Form.Label>
               <Col sm={9}>
                 <Form.Control type="text" className="h-100" />
@@ -65,7 +65,7 @@ class Contact extends Component {
             </Form.Group>
             <Form.Group as={Row} controlId="contactFormMessage">
               <Form.Label column="true" sm={3} className="text-right">
-                <h4 className="thin">Message</h4>
+                <h3 className="thin">Message</h3>
               </Form.Label>
               <Col column="true" sm={9}>
                 <Form.Control as="textarea" rows={3} />

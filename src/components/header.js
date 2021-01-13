@@ -47,7 +47,7 @@ class Header extends Component {
         <Container>
           <Row className="justify-content-center">
             <Col>
-              <h1 className="mainTitle thin">{name}</h1>
+              <h2 className="mainTitle thin">{name}</h2>
             </Col>
           </Row>
           <Row className="justify-content-center" xs={1}>
@@ -64,6 +64,7 @@ class Header extends Component {
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/tyghtmo"
+                aria-label="Link to my GitHub"
               >
                 <FontAwesomeIcon icon={faGithub} size="4x" className="icon" />
               </a>
@@ -73,6 +74,7 @@ class Header extends Component {
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/tysonwright259/"
+                aria-label="Link to my LinkedIn"
               >
                 <FontAwesomeIcon
                   icon={faLinkedinIn}
