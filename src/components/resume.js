@@ -87,7 +87,7 @@ class Resume extends Component {
             </Row>
             <Row xs={1}>
               <Col>{projectImage}</Col>
-              <Col>
+              <Col className="mt-2">
                 <p className="medium text-left">{project.description}</p>
               </Col>
               <Col>
