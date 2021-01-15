@@ -58,6 +58,26 @@ class Resume extends Component {
       });
 
       var projects = this.props.data.projects.map(function (project) {
+        var projectImage = "";
+        if (project.link) {
+          projectImage = (
+            <a href={project.link} target="_blank" rel="noreferrer">
+              <img
+                className="projectImg"
+                src={project.image}
+                alt={project.title}
+              />
+            </a>
+          );
+        } else {
+          projectImage = (
+            <img
+              className="projectImg"
+              src={project.image}
+              alt={project.title}
+            />
+          );
+        }
         return (
           <Container key={project.title} className="mb-5">
             <Row className="mb-3">
@@ -66,13 +86,7 @@ class Resume extends Component {
               </Col>
             </Row>
             <Row xs={1}>
-              <Col>
-                <img
-                  className="projectImg"
-                  src={project.image}
-                  alt={project.title}
-                />
-              </Col>
+              <Col>{projectImage}</Col>
               <Col>
                 <p className="medium text-left">{project.description}</p>
               </Col>
