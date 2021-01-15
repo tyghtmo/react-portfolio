@@ -15,7 +15,7 @@
       "phone": "0437199244",
       "email": "tyson.w259@gmail.com"
     },
-    "resumeLink" : "https://drive.google.com/uc?id=1nnM_avj5-65P7RWyMQqYCRwjNPA197Ex&export=download"
+    "resumeLink": "https://drive.google.com/uc?id=1nnM_avj5-65P7RWyMQqYCRwjNPA197Ex&export=download"
   },
   "resume": {
     "education": [
@@ -75,7 +75,7 @@
         "description": "As part of my Cloud Systems class, I was tasked with creating a C# application that would communicate with multiple WCF services hosted on AWS. The cloud solution I created consisted of 3 algorithms each running on 3 different EC2 instances. I then created a load balancer so that each time the project was initiated, the calculations ran on 1 VM for each algorithm.",
         "image": "images/aws.webp",
         "technology": "C#, WCF & AWS EC2",
-        "link": ""
+        "link": "https://github.com/tyghtmo/SIT323-CloudServices"
       },
       {
         "title": "Capstone Application Portal",
@@ -85,5 +85,9 @@
         "link": ""
       }
     ]
+  },
+  "footer": {
+    "credit": "Created by Me, Tyson Wright",
+    "tech": "Built using React"
   }
 }

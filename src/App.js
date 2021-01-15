@@ -5,6 +5,7 @@ import Header from "./components/header";
 import About from "./components/about";
 import Resume from "./components/resume";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 class App extends Component {
   constructor(props) {
@@ -33,7 +34,7 @@ class App extends Component {
         <About data={this.state.portfolioData.about} />
         <Resume data={this.state.portfolioData.resume} />
         <Contact data={this.state.portfolioData.about}/>
-        <div className="filler"></div>
+        <Footer data={this.state.portfolioData.footer} />
       </div>
     );
   }
