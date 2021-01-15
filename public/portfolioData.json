@@ -78,6 +78,13 @@
         "link": "https://github.com/tyghtmo/SIT323-CloudServices"
       },
       {
+        "title": "Jan Juc Cricket Club Store",
+        "description": "Implemented a simple, easy-to-use e-commerce solution for the Jan Juc Cricket club. The site is used to collect membership payments and sell club merchandise. Handles over $5,000 in sales annually.",
+        "image": "images/jjcc.webp",
+        "technology": "WordPress, WooCommerce, PayPal and various plug-ins",
+        "link": "https://store.janjucsharks.org.au/"
+      },
+      {
         "title": "Capstone Application Portal",
         "description": "For my capstone project I was the Back-End leader for the Capstone Application Portal project. We were asked by the client to make a number of visual and functional changes to an existing job-board website that did not meet the business requirements.",
         "image": "images/cap.webp",
@@ -88,6 +95,6 @@
   },
   "footer": {
     "credit": "Created by Me, Tyson Wright",
-    "tech": "Built using React"
+    "tech": "Built using React & Bootstrap"
   }
 }
