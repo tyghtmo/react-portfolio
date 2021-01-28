@@ -85,6 +85,13 @@
         "link": "https://store.janjucsharks.org.au/"
       },
       {
+        "title": "Time is Money - Chrome Extension",
+        "description": "A chrome extension that converts monetary amounts displayed on websites into the equivalent hours you'd need to work based on your hourly pay rate.",
+        "image": "images/timeIsMoney.webp",
+        "technology": "JavaScript, CSS & HTML",
+        "link": "https://store.janjucsharks.org.au/"
+      },
+      {
         "title": "Capstone Application Portal",
         "description": "For my university capstone project I was the Back-End leader for the Capstone Application Portal project. We were tasked by the client to make a number of visual and functional changes to an existing job-board website that did not meet the business requirements.",
         "image": "images/cap.webp",
