@@ -21,7 +21,7 @@ class Resume extends Component {
             </Row>
             <Row>
               <Col>
-                <p className="medium">{education.description}</p>
+                <p className="medium text-left">{education.description}</p>
               </Col>
             </Row>
           </Container>
@@ -50,7 +50,6 @@ class Resume extends Component {
                     return <li key={description}>-&emsp;{description}</li>;
                   })}
                 </ul>
-                {/* <p className="medium">{work.description}</p> */}
               </Col>
             </Row>
           </Container>
@@ -103,10 +102,10 @@ class Resume extends Component {
 
     return (
       <section id="resume">
-        <Container className="sectionPadding">
+        <Container fluid="xxl" className="sectionPadding">
           <Row id="education">
             <Col md={3} className="text-right">
-              <h1 className="thin">Education</h1>
+              <h1 className="thin resumeTitle">Education</h1>
             </Col>
             <Col md={9} className="ml-auto mr-auto">
               {education}
@@ -115,7 +114,7 @@ class Resume extends Component {
           <hr className="horizontalRule" />
           <Row className="mt-4" id="work">
             <Col md={3} className="text-right">
-              <h1 className="thin">Work</h1>
+              <h1 className="thin resumeTitle">Work</h1>
             </Col>
             <Col md={9} className="ml-auto mr-auto">
               {work}
@@ -124,7 +123,7 @@ class Resume extends Component {
           <hr className="horizontalRule" />
           <Row className="mt-4" id="projects">
             <Col md={3} className="text-right">
-              <h1 className="thin">Projects</h1>
+              <h1 className="thin resumeTitle">Projects</h1>
             </Col>
             <Col md={9} className="ml-auto mr-auto">
               {projects}

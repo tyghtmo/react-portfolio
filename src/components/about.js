@@ -5,11 +5,9 @@ class About extends Component {
   render() {
     if (this.props.data) {
       var about = this.props.data.aboutLine;
-      var resumeLink = this.props.data.resumeLink;
       var city = this.props.data.contact.city;
       var state = this.props.data.contact.state;
       var country = this.props.data.contact.country;
-      var phone = this.props.data.contact.phone;
       var email = this.props.data.contact.email;
     }
 
@@ -38,17 +36,16 @@ class About extends Component {
                       {city}, {state}
                     </li>
                     <li>{country}</li>
-                    <li>{phone}</li>
                     <li>{email}</li>
                   </ul>
                 </Col>
                 <Col className="d-flex">
                   <Button
-                    variant="outline-light"
+                    variant="light"
                     size="lg"
                     className="m-auto"
                     id="resume-btn"
-                    href={resumeLink}
+                    href="/TWright_resume.pdf"
                     download="Tyson_Wright_Resume"
                   >
                     Download Resume

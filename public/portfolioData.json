@@ -1,21 +1,19 @@
 {
   "main": {
     "name": "Tyson Wright",
-    "occupation": "Data Analytics and Information Technology Graduate",
+    "occupation": "Information Technology | Software Development ",
     "subheading": "Data | Web | Software",
-    "description": "Searching for a role in Data Analytics, Web Development and Software Engineering"
+    "description": "Experienced in Data Analytics, Web Development, Software Engineering, Systems Architecture and Sytems Administration."
   },
   "about": {
-    "aboutLine": "My name is Tyson Wright, I enjoy using data and programming skills to discover new insights and solve interesting problems.",
+    "aboutLine": "Utilizing data, programming and technological skills to uncover insights and solve complex problems.",
     "contact": {
       "city": "Geelong",
       "state": "Victoria",
       "country": "Australia",
       "postcode": "3216",
-      "phone": "0437199244",
       "email": "tyson.w259@gmail.com"
-    },
-    "resumeLink": "https://drive.google.com/uc?id=1nnM_avj5-65P7RWyMQqYCRwjNPA197Ex&export=download"
+    }
   },
   "resume": {
     "education": [
@@ -23,41 +21,54 @@
         "school": "Deakin University",
         "degree": "Graduate Certificate in Data Analytics",
         "dates": "June 2020 - October 2020",
-        "description": ""
+        "description": "A program that covers statistical analysis, data visualization, machine learning, and data management to provide students with the skills and knowledge to collect, analyze, and interpret data to make informed decisions."
       },
       {
         "school": "Deakin University",
         "degree": "Bachelor of Information Technology",
         "dates": "2017 - 2020",
-        "description": "Major in Programming."
+        "description": "Completed a three-year Bachelor of Information Technology degree with credit distinction, which provided me with the knowledge and skills to design, develop, and manage IT systems. The program covered a range of topics, including programming, data management, networking, and security, and gave me the ability to apply these skills to solve real-world problems. As a graduate, I am well-prepared for a wide range of careers in the IT industry, including roles in software development, network administration, and IT project management."
       }
     ],
     "work": [
       {
-        "company": "Bunning's Warehouse",
+        "company": "Detail Door Hardware, Geelong",
+        "title": "Systems Administrator & Software Developer",
+        "years": "2021 - Current",
+        "description": [
+          "Successfully led the implementation and migration of various on-premise systems, including email, file shares and databases to cloud-native platforms. This resulted in cost optimization, enhanced reliability, increased uptime, and improved security posture.",
+          "Managed and maintained high-availability of business systems and applications through effective time-management and problem-solving.",
+          "Improved network security and performance through the implementation of best practices and the deployment of new devices & technologies, such as Palo Alto firewalls and IPSec VPN's.",
+          "Collaborated with stakeholders to identify and fix issues with a legacy Pascal business application, implementing updates and improvements to enhance its functionality and user experience.",
+          "Developed and deployed custom business applications to support critical warehouse operations, including order fulfillment, inventory management, and stock control, resulting in enhanced productivity and operational efficiency."
+        ]
+      },
+      {
+        "company": "Bunning's Warehouse, Torquay",
         "title": "Team Member",
-        "years": "2015 - Current",
+        "years": "2015 - 2021",
         "description": [
           "Torquay Warehouse Team Member of the Year 2019.",
-          "Provided excellent customer service promptly and courteously and used creative problem solving to ensure customers got the information they needed."
+          "Provided excellent customer service promptly and courteously to help customers using creative problem solving to ensure customers got the information they needed."
         ]
       },
       {
         "company": "FPT Software, Hanoi",
-        "title": "Front-end Web Developer Intern",
+        "title": "Front-End Web Development Intern",
         "years": "November - December 2019",
         "description": [
-          "Responsible for making the codelearn.io site responsive for mobile and tablet devices.",
+          "Responsible for implementing responsive layouts for mobile and tablet devices to the codelearn.io webapp.",
           "Technologies used: C#, .NET, JavaScript, Git, Bootstrap, Chart.js, CSS & HTML."
         ]
       },
       {
         "company": "Jan Juc Cricket Club",
-        "title": "Website Development & Maintenance",
+        "title": "Website Development & Maintenance, Volunteer",
         "years": "September 2019 - Current",
         "description": [
-          "Implemented the Jan Juc Cricket Club website and online store.",
-          "Responsible for maintaining the website, hosting, PayPal and e-commerce.",
+          "Developed a WooCommerce website for Jan Juc Cricket Club",
+          "Provided ongoing maintenance and support for the website, including updates, backups, and troubleshooting",
+          "Contributed to the success of the club by creating a reliable and effective online presence for merchandise and membership sales",
           "Technologies used: WordPress, WooCommerce, PayPal API"
         ]
       }
@@ -65,21 +76,21 @@
     "projects": [
       {
         "title": "Plant Catalogue",
-        "description": "Uses the trefle.io API to display and search through plants by common name, scientific name, genus and family. Shows helpful information about varying growing conditions for each plant. PWA optimized with efficient caching policy and installable from the browser.",
+        "description": "Uses the trefle.io API to display and search through plants by common name, scientific name, genus and family. Shows helpful information about varying growing conditions for each plant. PWA optimized with efficient caching policy and installable from the browser. Archived since the trefle.io API has been deprecated.",
         "image": "images/plants.webp",
         "technology": "Python3, Django, JavaScript, SCSS & HTML5",
-        "link": "https://plants.tysonwright-dev.com"
+        "link": "https://github.com/tyghtmo/plantCatalogue"
       },
       {
         "title": "AWS Cloud Services",
-        "description": "As part of my Cloud Systems class, I was tasked with creating a C# application that would communicate with multiple WCF services hosted on AWS. The cloud solution I created consisted of 3 algorithms each running on 3 different EC2 instances. I then created a load balancer so that each time the project was initiated, the calculations ran on 1 VM for each algorithm.",
+        "description": "Designed and implemented a cloud-based C# application that communicated with multiple WCF services hosted on AWS. Utilized 9 EC2 instances to run 3 differnet algorithms and a load balancer to distribute calculations evenly across VMs, resulting in improved performance and scalability. Demonstrated strong skills in cloud computing, C# development, and WCF service integration through the successful completion of this project.",
         "image": "images/aws.webp",
         "technology": "C#, WCF & AWS EC2",
         "link": "https://github.com/tyghtmo/SIT323-CloudServices"
       },
       {
         "title": "Jan Juc Cricket Club Store",
-        "description": "Implemented a simple, easy-to-use e-commerce solution for the Jan Juc Cricket club. The site is used to collect membership payments and sell club merchandise. Handles over $5,000 in sales annually.",
+        "description": "Implemented a simple, easy-to-use e-commerce solution using WordPress and WooCommerce for the Jan Juc Cricket club. The site is used to collect membership payments and sell club merchandise. Handles over $5,000 in sales annually.",
         "image": "images/jjcc.webp",
         "technology": "WordPress, WooCommerce, PayPal and various plug-ins",
         "link": "https://store.janjucsharks.org.au/"

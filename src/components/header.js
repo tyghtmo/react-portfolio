@@ -16,7 +16,6 @@ class Header extends Component {
         <Navbar
           collapseOnSelect
           expand="lg"
-          bg="transparent"
           variant="dark"
           fixed="top"
           id="nav"
@@ -52,10 +51,10 @@ class Header extends Component {
           </Row>
           <Row className="justify-content-center" xs={1}>
             <Col className="pb-2">
-              <h3 className="thin">{occupation}.</h3>
+              <h3 className="thin">{occupation}</h3>
             </Col>
             <Col className="pb-5">
-              <h4 className="medium">{description}.</h4>
+              <h4 className="medium">{description}</h4>
             </Col>
           </Row>
           <Row className="w-50 m-auto" xs={2}>

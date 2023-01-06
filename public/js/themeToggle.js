@@ -17,10 +17,10 @@ btn.addEventListener("click", function () {
   }
 
   var resumeBtn = document.getElementById("resume-btn");
-  resumeBtn.classList.toggle("btn-outline-dark");
-  resumeBtn.classList.toggle("btn-outline-light");
+  resumeBtn.classList.toggle("btn-dark");
+  resumeBtn.classList.toggle("btn-light");
 
   var contactBtn = document.getElementById("contactSubmit");
-  contactBtn.classList.toggle("btn-outline-dark");
-  contactBtn.classList.toggle("btn-outline-light");
+  contactBtn.classList.toggle("btn-dark");
+  contactBtn.classList.toggle("btn-light");
 });

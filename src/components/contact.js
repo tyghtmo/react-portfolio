@@ -36,16 +36,18 @@ class Contact extends Component {
 
     return (
       <section id="contact">
-        <Container>
+        <Container fluid="xxl">
+
           <Row className="mb-4">
             <Col sm={3} className="text-right">
-              <FontAwesomeIcon icon={faEnvelope} size="4x" className="icon" />
+              <h1 className="thin">Contact</h1>
             </Col>
             <Col>
-              <h2 className="thin">Contact</h2>
+              <FontAwesomeIcon icon={faEnvelope} size="4x" className="icon" />
+
             </Col>
           </Row>
-          <Form>
+          <Form id="contactForm">
             <Form.Group as={Row} controlId="contactFormName">
               <Form.Label column="true" sm={3} className="text-right">
                 <h3 className="thin">Name</h3>
@@ -70,9 +72,9 @@ class Contact extends Component {
               <Col column="true" sm={9}>
                 <Form.Control as="textarea" rows={3} />
                 <Button
-                  variant="outline-light"
+                  variant="light"
                   type="submit"
-                  className="w-100 mt-3"
+                  className="w-25 mt-3"
                   id="contactSubmit"
                   onClick={handleClick}
                 >

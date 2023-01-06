@@ -6,6 +6,10 @@ body {
   color: #e6e6e6 !important;
 }
 
+.navbar-dark {
+  background-color: #131313;
+}
+
 .icon {
   color: #e0e0e0;
 }
@@ -21,6 +25,7 @@ body {
 }
 
 .horizontalRule {
+  max-width: 90%;
   border-color: #e6e6e6;
 }
 
@@ -36,6 +41,10 @@ body.light-mode {
 
 .light-mode .icon {
   color: #1f1f1f;
+}
+
+.navbar-light {
+  background-color: #ececec;
 }
 
 .light-mode #about, .light-mode #footer {
@@ -79,10 +88,25 @@ body.light-mode {
   margin-top: .5rem;
 }
 
+#contactForm {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .lists {
   list-style-type: none;
   padding-inline-start: 0px;
 }
+
+.lists > li {
+  padding-bottom: 1rem;
+}
+
+ .resumeTitle {
+  position: sticky;
+  top: 4rem; 
+ }
 
 .profileImg {
   border-radius: 50%;
